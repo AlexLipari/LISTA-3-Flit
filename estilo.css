@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    background: url(img2/8.png)navy;
+}
+
+.titulo {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(251, 251, 251);
+}
+
+.areaFoto {
+    background-image: url(img/eu.jpg);
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 5px rgb(63, 63, 63);
+}
+
+.perfil {
+    text-align: center;
+}
+.perfil2 {
+    text-align: center;
+    
+}
+.conteudo{
+    margin: 30px auto;
+    max-width: 90vw;
+
+}
+.card{
+    width: 40vw;
+    margin:2.5vw 2.5vw ;
+    height: 80px;
+    background-color: rgb(214, 214, 214);
+    float: left;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 5px rgb(63, 63, 63);
+}
+.texto{
+    width: 30vw;
+    margin:0vw 4.0vw ;
+    height: 100px;
+    
+    float: left;
+}
+.T{
+    width: 20vw;
+    margin:-4vw 16vw ;
+    height: 100px;
+    float: left; 
+}
+.T2{
+    width: 20vw;
+    margin:-4vw 14vw ;
+    height: 100px;
+    float: left; 
+}
