@@ -9,27 +9,91 @@
 </head>
 
 <body>
-    <form>
-        <div><label for="modelo">Modelo:</label>
-            <input id="modelo" type="text" name="modelo"placeholder = "Ex.Lamborghini Urus">
+    <section class="cabeçalho">
+        <h1>Cadastro</h1>
+    </section>
+    <div class="fundoForm">
+
+    </div>
+    <form class="conteudo2">
+        <div>
+            <label for="firstCheck">Carro Novo</label>
         </div>
-        <div> 
-            <label for="marca">Marca:</label>              
-            <input id= "marca"type="text" name="marca"placeholder = "Ex.Lamborghini">
+        <div>
+            <input id="firstCheck" type="radio" name="tipo" value="Carro Novo">
+        </div>
+        <div>
+            <label for="secondCheck">Carro Usado</label>
+        </div>
+        <div>
+            <input id="secondCheck" type="radio" name="tipo" value="Carro Usado">
+        </div>
+        <p></p>
+        <div class="T1">
+            <h4>Informações desejadas</h4>
+        </div>
+        <p></p>
+        <div>
+            <label for="modelo">Modelo:</label>
+        </div>
+        <div>
+            <input id="modelo" type="text" name="modelo" placeholder="Ex.Lamborghini Urus">
+        </div>
+        <div>
+            <label for="marca">Marca:</label>
+        </div>
+        <div>
+            <input id="marca" type="text" name="marca" placeholder="Ex.Lamborghini">
         </div>
         <div>
             <label for="ano">Ano:</label>
-            <input id="ano" type="text" name="ano"placeholder = "Ex.2022">
+        </div>
+        <div>
+            <input id="ano" type="text" name="ano" placeholder="Ex.2022">
         </div>
         <div>
             <label for="quilometragem">Quilometragem:</label>
-            <input id="quilometragem"type="text" name="quilometragem"placeholder ="Ex. 3.000km">
+        </div>
+        <div>
+            <input id="quilometragem" type="text" name="quilometragem" placeholder="Ex. 3.000km">
         </div>
         <div>
             <label for="">valor:</label>
-            <input type="text" name="valor"placeholder ="R$ 2.300,000">
+        </div>
+        <div>
+            <input type="text" name="valor" placeholder="Ex.R$ 2.300,000">
+        </div>
+        
+        <p></p>
+        
+        <div>
+            <label for="checkOne">Airbag</label>
+        </div>
+        <div>
+            <input id="checkOne" type="checkbox" name="adicionais" value="Airbag">
+        </div>
+        <div>
+            <label for="checkTwo">Ar-Condicionado</label>
+        </div>
+        <div>
+            <input id="checkTwo" type="checkbox" name="adicionais" value="Ar-Condicionado">
+        </div>
+        <div>
+            <label for="checkThree">Alarme</label>
+        </div>
+        <div>
+            <input id="checkThree" type="checkbox" name="adicionais" value="Alarme">
+        </div>
+        <p></p>
+        <div>
+            <input type="submit">
+        </div>
+        <p></p>
+        <div>
+            <a href="index.html">Clique voltar</a>
         </div>
     </form>
+   
 </body>
 
 </html>

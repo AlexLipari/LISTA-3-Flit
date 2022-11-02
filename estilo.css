@@ -25,40 +25,74 @@ body {
 .perfil {
     text-align: center;
 }
+
 .perfil2 {
     text-align: center;
-    
+
 }
-.conteudo{
+
+.conteudo {
     margin: 30px auto;
     max-width: 90vw;
 
 }
-.card{
+
+.card {
     width: 40vw;
-    margin:2.5vw 2.5vw ;
+    margin: 2.5vw 2.5vw;
     height: 80px;
     background-color: rgb(214, 214, 214);
     float: left;
     border-radius: 15px;
     box-shadow: 10px 10px 10px 5px rgb(63, 63, 63);
 }
-.texto{
+
+.texto {
     width: 30vw;
-    margin:0vw 4.0vw ;
+    margin: 0vw 4.0vw;
     height: 100px;
-    
+
     float: left;
 }
-.T{
+
+.T {
     width: 20vw;
-    margin:-4vw 16vw ;
+    margin: -4vw 16vw;
     height: 100px;
-    float: left; 
+    float: left;
 }
-.T2{
+
+.T2 {
     width: 20vw;
-    margin:-4vw 14vw ;
+    margin: -4vw 14vw;
     height: 100px;
-    float: left; 
+    float: left;
+}
+
+.cabeçalho {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: rgb(78, 77, 77);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(251, 251, 251);
+}
+
+
+
+.conteudo2 {
+    margin: -70vh auto;
+    background-color: rgb(148, 147, 147);
+    width: 300px;
+    height: 600px;
+    text-align: center;  
+    border-radius: 20px;
+}
+.fundoForm { 
+    margin: 15vh auto;
+    background-color: rgb(148, 147, 147);
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    border-radius: 20px;
 }
